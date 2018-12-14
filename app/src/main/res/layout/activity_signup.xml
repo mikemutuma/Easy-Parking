@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#131212"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity">
+
+    <TextView
+        android:id="@+id/tvemail"
+        android:layout_width="325dp"
+        android:layout_height="77dp"
+        android:layout_alignEnd="@+id/tvpass"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="194dp"
+        android:text="Email:"
+        android:textColor="#faf8f8"
+        android:textSize="20dp" />
+
+    <TextView
+        android:textSize="20dp"
+        android:textColor="#faf8f8"
+        android:id="@+id/tvpass"
+        android:layout_width="315dp"
+        android:layout_height="78dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="172dp"
+        android:layout_marginEnd="43dp"
+        android:text="Password:" />
+
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="313dp"
+        android:layout_height="70dp"
+        android:layout_alignEnd="@+id/tvUserLogin"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="88dp"
+        android:text="Name:"
+        android:textColor="#faf8f8"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_alignEnd="@+id/tvpass"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="Name Here"
+        android:inputType="textPersonName"
+        android:textColor="#faf8f8"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/etUserEmail"
+        android:layout_width="280dp"
+        android:layout_height="67dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tvsignup"
+        android:layout_marginTop="224dp"
+        android:ems="10"
+        android:hint="Email Here"
+        android:inputType="textEmailAddress"
+        android:textColor="#faf8f8"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/etUserPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="76dp"
+        android:layout_alignEnd="@+id/tvemail"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="162dp"
+        android:ems="10"
+        android:hint="Password Here"
+        android:inputType="textPassword"
+        android:textColor="#faf8f8"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvsignup"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="SIGN UP"
+        android:textColor="#f5f2f2"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/angry_btnregister"
+
+        android:layout_width="151dp"
+        android:layout_height="41dp"
+        android:layout_alignParentBottom="true"
+
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="99dp"
+        android:layout_marginStart="96dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Register"
+        android:textColor="#050404"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvUserLogin"
+        android:layout_width="250dp"
+        android:layout_height="33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/tvsignup"
+        android:layout_marginBottom="35dp"
+        android:text="Already have an account?"
+        android:textColor="#f5f2f2"
+        android:textSize="20dp" />
+</RelativeLayout>

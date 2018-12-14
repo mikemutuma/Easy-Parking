@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/back"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+
+    <TextView
+        android:id="@+id/tvRegNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/etdRegNo"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="31dp"
+        android:text="Reg No:"
+        android:textColor="#faf8f8"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/etdRegNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/edtspot"
+        android:layout_marginTop="122dp"
+        android:ems="10"
+        android:hint="Reg No Here"
+        android:inputType="textPersonName"
+        android:textColor="#faf8f8"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvspot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edtspot"
+        android:layout_alignStart="@+id/tvRegNo"
+        android:text="Spot #:"
+        android:textColor="#faf8f8"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edtspot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginTop="197dp"
+        android:ems="10"
+        android:hint="Spot Here"
+        android:inputType="number"
+        android:textColor="#faf8f8"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvhour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvRegNo"
+        android:layout_centerVertical="true"
+        android:text="Hours:"
+        android:textColor="#faf8f8"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edhour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvhour"
+        android:layout_alignStart="@+id/etdRegNo"
+        android:ems="10"
+        android:hint="Number of Hours"
+        android:inputType="number"
+        android:textColor="#faf8f8"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnconfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvtt"
+        android:layout_centerHorizontal="true"
+        android:background="#41ea0e"
+        android:text="Confirm" />
+
+    <TextView
+        android:id="@+id/tverror"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="82dp"
+        android:text=""
+        android:textColor="#faf8f8"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvtotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tvRegNo"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="194dp"
+        android:text="Total:"
+        android:textColor="#faf8f8"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvtt"
+        android:layout_width="103dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/tvtotal"
+        android:layout_marginEnd="95dp"
+        android:textColor="#faf8f8"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="48dp"
+        android:layout_marginTop="59dp"
+        android:background="#e40e0e"
+        android:text="View " />
+
+
+</RelativeLayout>

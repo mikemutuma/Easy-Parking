@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "612360608575",
+    "firebase_url": "https://easyparking-b82f9.firebaseio.com",
+    "project_id": "easyparking-b82f9",
+    "storage_bucket": "easyparking-b82f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612360608575:android:60055057cb06c200",
+        "android_client_info": {
+          "package_name": "com.mutuma.easyparking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612360608575-78b8gi0jfjama7dh2t1s1hm8ootcngik.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mutuma.easyparking",
+            "certificate_hash": "330212a65750a07778e38966acc4be0e699d7f2e"
+          }
+        },
+        {
+          "client_id": "612360608575-ra49gugbpiavbuem6i8ikg3sdsb8v17g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8pYT9wXEtF62EbLyvKylIil_E2MHr7HQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612360608575-ra49gugbpiavbuem6i8ikg3sdsb8v17g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
